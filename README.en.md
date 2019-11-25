@@ -1,7 +1,8 @@
 # dubbo微服务租房项目
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+#### 使用技术
+* 后端：SpringBoot + Dubbo + Zookeeper + MybatisPlus + MongoDB + Redis + ElasticSearch + GraphQL + RocketMQ + WebScoket
+* 前端：React + 微信小程序
 
 #### Software Architecture
 Software architecture description
