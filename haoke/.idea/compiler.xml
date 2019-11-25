@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="haoke-dubbo-server-commen" />
+        <module name="haoke-dubbo-server-house-resource-service" />
+        <module name="haoke-dubbo-server-ad-service" />
+        <module name="haoke-dubbo-server-house-resource-interface" />
+        <module name="haoke-dubbo-server-ad-interface" />
+        <module name="haoke-api-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="haoke-dubbo-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="haoke" options="" />
+      <module name="haoke-api-server" options="" />
+      <module name="haoke-dubbo-server" options="-parameters" />
+      <module name="haoke-dubbo-server-house-resource" options="-parameters" />
+      <module name="haoke-dubbo-server-house-resource-interface" options="" />
+      <module name="haoke-dubbo-server-house-resource-service" options="" />
+    </option>
+  </component>
+</project>

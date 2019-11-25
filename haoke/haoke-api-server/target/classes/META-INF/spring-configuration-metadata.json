@@ -1,0 +1,97 @@
+{
+  "groups": [
+    {
+      "name": "aliyun",
+      "type": "haoke.api.config.AliyunConfig",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "mock",
+      "type": "haoke.api.config.MockConfig",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "haoke.api.config.ClusterConfigurationProperties",
+      "sourceType": "haoke.api.config.ClusterConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "aliyun.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "aliyun.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "aliyun.url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.AliyunConfig"
+    },
+    {
+      "name": "mock.index-faq",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.index-house",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.index-info",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.index-menu",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.infos-list1",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.infos-list2",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.infos-list3",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "mock.my",
+      "type": "java.lang.String",
+      "sourceType": "haoke.api.config.MockConfig"
+    },
+    {
+      "name": "spring.redis.cluster.max-redirects",
+      "type": "java.lang.Integer",
+      "sourceType": "haoke.api.config.ClusterConfigurationProperties"
+    },
+    {
+      "name": "spring.redis.cluster.nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "haoke.api.config.ClusterConfigurationProperties"
+    }
+  ],
+  "hints": []
+}
