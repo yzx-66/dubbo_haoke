@@ -5,6 +5,6 @@
 
 #### 使用技术
 
-* 后端：SpringBoot + Dubbo + Zookeeper + MybatisPlus + MongoDB + Redis + ElasticSearch + GraphQL + RocketMQ + WebScoket
+* 后端：SpringBoot + Dubbo + Zookeeper + MybatisPlus + MongoDB + Redis + ElasticSearch + GraphQL + RocketMQ + WebScoket + OSS
 
 * 前端：React + 微信小程序
