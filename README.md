@@ -55,6 +55,12 @@
 * SpringBoot整合Elasticsearch：https://blog.csdn.net/weixin_43934607/article/details/100149363
 * 文件服务器（OSS、Nginx）与 Nginx负载均衡：https://blog.csdn.net/weixin_43934607/article/details/103059810
 
+#### 做完该项目的总结
+* 从项目本身来说，这个项目涉及的业务逻辑并不多，主要在使用技术本身，所以作为练习项目还是具有较高的性价比。
+* 从技术角度来说，接触的全新技术有GraphQL和Webmagic，虽然新技术不多，但是学到的集群搭建知识颇多，而且均以Docker为主，所以还可以较好的习惯Docker。
+* 从选型的对比来说，Dubbo在使用中明显能感觉到比SpringCloud少挺多组件，比如网关、断路器、配置中心等等，同时对服务降级、服务监控这些微服务框架基本要求感觉支持不够，但基于RPC的调用比基于Http的rest还是有一定优势，不过以后如果小团队开发，还是要选SpringCloud，尤其现在阿里也在开发SpringCloud组件，所以以后可能还是SpringCloud为主流。
+
+
 #### 视频教程
 链接：https://pan.baidu.com/s/154P9LN5kOBylObjoA3ohmw 
 提取码：s9bp
